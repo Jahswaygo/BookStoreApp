@@ -45,8 +45,7 @@ public class ScreenController implements Initializable
     private Parent root;
     private DecimalFormat df = new DecimalFormat("0.00");
     private static String name;
-    private static int userPoints;
-    private static int deltaPoints;
+    private int deltaPoints;
     
     //Scene Variables:
         //Login Screen:
@@ -140,14 +139,9 @@ public class ScreenController implements Initializable
             @FXML private ProgressBar fromNextRank;
 
         //Customer Cart Screen
-        
 
             //Total Cost of books in cart
             @FXML private Label TotalCost;
-
-            //Points Being Redeemed
-            @FXML
-            private Label PointsRedeemed;
 
             //View books in Cart
             @FXML private TableView<Book> bkInCart;
@@ -640,7 +634,6 @@ public class ScreenController implements Initializable
             {
                 if(user.getUsername().equals(name))
                 {
-                    userPoints=user.getPoints();
                     customerpoints.setText("" + user.getPoints());
                     fromNextRank.setProgress(getProgress(user.getPoints()));
                 
@@ -667,13 +660,6 @@ public class ScreenController implements Initializable
             Cartbkprice.setCellValueFactory(new PropertyValueFactory<Book,Double>("price"));
             TotalCost.setText("Total Cost: $" + Double.toString(totalPrice));
             bkInCart.setItems(Library);
-            if((userPoints+deltaPoints)>=0)
-            {
-                PointsRedeemed.setText("New Point Balance: "+ (userPoints+deltaPoints));
-            }else
-            {
-                PointsRedeemed.setText("New Point Balance: 0");
-            }
             
         
         }catch(NullPointerException e)

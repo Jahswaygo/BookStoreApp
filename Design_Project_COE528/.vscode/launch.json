@@ -10,31 +10,7 @@
             "name": "App",
             "request": "launch",
             "mainClass": "Scenes.App",
-            "projectName": "Design_Project_COE528_e9c4ea67"
-        },
-        {
-            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-19.0.2.1/lib\" --add-modules javafx.controls,javafx.fxml",
-            "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "Scenes.App",
-            "projectName": "Design_Project_COE528_115e3510"
-        },
-        {
-            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-19.0.2.1/lib\" --add-modules javafx.controls,javafx.fxml",
-            "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "Scenes.App",
-            "projectName": "Design_Project_COE528_2aeeec42"
-        },
-        {
-            "vmArgs": "--module-path \"/Library/Java/javafx-sdk-19.0.2.1/lib\" --add-modules javafx.controls,javafx.fxml",
-            "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "Scenes.App",
-            "projectName": "Design_Project_COE528_2aeeec42"
+            "projectName": "Design_Project_COE528_3018514f"
         },
         {
             "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-19.0.2.1/lib\" --add-modules javafx.controls,javafx.fxml",
@@ -43,13 +19,6 @@
             "request": "launch",
             "mainClass": "Scenes.App",
             "projectName": "Design_Project_COE528_949d7cc1"
-        },
-        {
-            "vmArgs": "--module-path \"/Library/Java/javafx-sdk-19.0.2.1/lib\" --add-modules javafx.controls,javafx.fxml",
-            "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}"
         }
     ]
 }
