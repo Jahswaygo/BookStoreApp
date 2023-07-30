@@ -380,7 +380,7 @@ public class ScreenController implements Initializable
             {
                 double Gold=1000.00;
                 double prg= (double)points/Gold;
-                if(points > 1000)
+                if(points >= 1000)
                 {
                     fromNextRank.setStyle("-fx-accent: gold;");
                     return 1;
@@ -482,8 +482,7 @@ public class ScreenController implements Initializable
                 getCartBooks();
                 deltaPoints -= Math.min(user.getPoints(), totalPrice * 100);
                 totalPrice = Math.max(totalPrice - (user.getPoints() / 100.0), 0);
-                
-                
+                              
                 
                 
                 OpenCCS(event);
