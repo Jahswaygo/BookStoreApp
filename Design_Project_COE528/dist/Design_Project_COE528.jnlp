@@ -8,11 +8,11 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Design_Project_COE528.jar" size="101730" download="eager" />
+    <jar href="Design_Project_COE528.jar" size="114120" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Design_Project_COE528" >
     <param name="requiredFXVersion" value="8.0+"/>
   </applet-desc>
-  <jfx:javafx-desc  width="800" height="600" main-class="App.App"  name="Design_Project_COE528" />
+  <jfx:javafx-desc  width="800" height="600" main-class="Scenes.App"  name="Design_Project_COE528" />
   <update check="always"/>
 </jnlp>
