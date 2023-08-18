@@ -2,7 +2,7 @@
 
 
 Login Page:
-<div align="center"> <a href=""> <img src="https://www.arianfooladray.com/wp-content/uploads/go-x/u/c59f2d69-d5df-4d21-9b76-222373ab7c27/image.png" width="400" height="200"> </a> </div>
+<div align="center"> <a href=""> <img src="https://www.arianfooladray.com/wp-content/uploads/go-x/u/c59f2d69-d5df-4d21-9b76-222373ab7c27/image.png" width="600" height="500"> </a> </div>
 
 Login Page (Invalid Password)
 <div align="center"> <a href=""> <img src="https://www.arianfooladray.com/wp-content/uploads/go-x/u/ae53b9e6-08c0-4f61-9f4b-a7d32b3f4121/image.png" > </a> </div>
