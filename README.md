@@ -1,4 +1,4 @@
-</h1>Java Bookstore Project</h1>
+<h1>Java Bookstore Project</h1>
 
 Welcome to the Java Bookstore Project, a comprehensive and innovative application that leverages the power of JavaFX and object-oriented programming principles to create an immersive and functional bookstore experience.
 
@@ -8,7 +8,7 @@ The Java Bookstore Project is designed to provide both administrators and users 
 
 <h2>Features</h2>
 
-***Admin Capabilities:*** Administrators can effortlessly add new books to the bookstore inventory and register users, all through a user-friendly graphical interface.
+**Admin Capabilities:** Administrators can effortlessly add new books to the bookstore inventory and register users, all through a user-friendly graphical interface.
 
 **User Interaction:** Users can explore the available collection of books, select their desired titles, make purchases, and track their accumulated points.
 
